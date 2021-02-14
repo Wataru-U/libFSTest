@@ -1,18 +1,3 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="libFSTest/MeshController.fs">
-    <Files>
-      <File FileName="libFSTest/Component1.fs" Line="6" Column="9" />
-      <File FileName="libFSTest/AssemblyInfo.fs" />
-      <File FileName="libFSTest/Script.fsx" />
-      <File FileName="libFSTest/packages.config" />
-      <File FileName="libFSTest/libFSTest.fsproj" />
-      <File FileName="libFSTest/MeshController.fs" Line="492" Column="32" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

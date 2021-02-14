@@ -233,6 +233,7 @@ module Polygon =
 
             //辺を巡回しながら引数に入れた関数を実行していく
             //入れる関数は頂点番号を引数に要求するもの
+            //引数に関数を入れるというのを理解するの時間がかかったので一部でしか使えていない
             member this.sarchF func = 
                 let mutable index = this.start
                 func index
@@ -252,7 +253,7 @@ module Polygon =
                     this.halfEdges.Item(0).NextUpdate 1
                     this.halfEdges.Item(0).PrevUpdate 1
                     this.count <- 2
-                | _ -> //メッシュが作れるようになったら前のハーフエッジのnextを新しいものに　次のprexを新しいものに
+                | _ -> //メッシュが作れるようになったら前のハーフエッジのnextを新しいものに　次のprevを新しいものに
                    let prevEdge = this.halfEdges.Item (p)
                    let nextNum = prevEdge.next
                    let nextEdge = this.halfEdges.Item (nextNum)
